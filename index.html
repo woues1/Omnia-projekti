@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Omenapuu</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <main>
+        <div id="game-End-Start_Overlay">
+            <p id="start-game"onclick="startGame()">Aloita</p>
+            <p id="end-game"onclick="stopGame()">Lopeta peli</p>
+            <p id="restart-game"onclick="resetGame()">Pelaa uudestaan</p>
+        </div>
+        <section class="container">
+            <img src="2d_apple_tree.png" class="base-image" alt="Omenapuu">
+            <div id="apple-back" class="apple-back">
+                <p class="question"></p>
+            </div>
+            <div id="quote-display" class="quote-display">
+                <p class="quote"></p>
+            </div>
+            <div id="overlay"></div>
+            <div class="apple-image-box"></div>
+        </section>
+        <footer>
+            Ghost.mp3 by Eggy Toast (Free Music Archive) is licensed under a Attribution-NonCommercial-ShareAlike 4.0 International License.<br>
+            Life's Pace In Slow Motion by Julian Winter (Free Music Archive) is licensed under a Attribution-NonCommercial-ShareAlike 3.0 International License.
+        </footer>
+    </main>
+    <script defer src="index.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,155 @@
+
+html, body{
+    margin: 0; 
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(110deg, #700b0b 50%, #07576b 50%);
+}
+
+.container {
+    position: relative;
+    width: 1024px;
+    height: 1024px;
+    margin: auto;
+    z-index: 1;
+}
+
+.base-image, 
+.apple-front, 
+.apple-back,
+.quote-display,
+.apple-image-box{
+    position: absolute;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* game board */
+.base-image {
+    width: 1024px;
+    height: 1024px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/*adjust z-index of apple on game board*/
+.apple-front{
+    z-index: 2;
+}
+
+.apple-front:hover{
+    transform: scale(1.3);
+}
+
+/* Area where apple's can appear */
+.apple-image-box {
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 180px;
+    z-index: 2;
+}
+
+/* Question/quote display div settings */
+#apple-back,
+#quote-display{
+    display: none;
+    width: 200px;
+    min-height: 50px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    text-align: center;
+    z-index: 11;
+    background-color: azure;
+    border-radius: 15px;
+    pointer-events: auto;
+}
+
+.apple-back {
+    background-color: azure;
+}
+
+#quote-display {
+    background: linear-gradient(110deg, gold 33%,lightgray 67%, gray 100%);
+}
+
+.question, 
+.quote{
+    margin: 5px;
+}
+
+#apple-back:hover{
+    border-style: solid;
+    border-width: 3px;
+    border-color: silver;
+}
+
+#quote-display:hover{
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+/* overlay settings */
+
+#game-End-Start_Overlay,
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+#overlay{
+    display:none
+}
+
+/* game => start reset end. styling */
+#start-game,
+#restart-game,
+#end-game{
+    display: none;
+    position: relative;
+    width: 125px;
+    min-height: 25px;
+    height: auto;
+    margin-top: 40px;
+    padding-top: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    background: linear-gradient(110deg, gold 33%,lightgray 67%, gray 100%);
+    text-align: center;
+    z-index: 11;
+    border-radius: 15px;
+    pointer-events: auto; 
+}
+
+#game-End-Start_Overlay p:hover{
+    border-style: groove;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.unclickable {
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 425px){  
+    .container {
+        margin-top: 100%;
+    }
+
+}

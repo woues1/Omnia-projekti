@@ -1,0 +1,219 @@
+{
+    "questions": [
+     {
+      "id": 1,
+      "question": "Mikä on sinun lempiruokasi?",
+      "level": 1
+     },
+     {
+      "id": 2,
+      "question": "Mikä on sinun lempivärisi?",
+      "level": 1
+     },
+     {
+      "id": 3,
+      "question": "Mikä on sinun lempiviikonpäiväsi?",
+      "level": 1
+     },
+     {
+      "id": 4,
+      "question": "Mikä on sinun lempielokuvasi?",
+      "level": 1
+     },
+     {
+      "id": 5,
+      "question": "Millainen on sinun ihannepartnerisi?",
+      "level": 1
+     },
+     {
+      "id": 6,
+      "question": "Mikä on sinun lempimusiikkisi?",
+      "level": 1
+     },
+     {
+      "id": 7,
+      "question": "Mikä on sinun lempibändisi?",
+      "level": 1
+     },
+     {
+      "id": 8,
+      "question": "Jos olisit eläin, mikä eläin olisit?",
+      "level": 1
+     },
+     {
+      "id": 9,
+      "question": "Onko sinulla lemmikkieläin? Jos on, mikä?",
+      "level": 1
+     },
+     {
+      "id": 10,
+      "question": "Mikä on sinun lempi autosi?",
+      "level": 1
+     },
+     {
+      "id": 11,
+      "question": "Kuka on sinun lempihahmosi elokuvissa, tv-sarjoissa tai peleissä?",
+      "level": 1
+     },
+     {
+      "id": 12,
+      "question": "Mitkä ovat sinun lempi sovelluksesi ja somekanavasi? (Snapchat, TikTok, Youtube)",
+      "level": 1
+     },
+     {
+      "id": 13,
+      "question": "Mikä on sinun lempivuodenaikasi?",
+      "level": 1
+     },
+     {
+      "id": 14,
+      "question": "Mikä on sinun suosikkimaa?",
+      "level": 1
+     },
+     {
+      "id": 15,
+      "question": "Ketä julkkista haluaisit tavata ja miksi?",
+      "level": 1
+     },
+     {
+      "id": 16,
+      "question": "Ketä perheenjäsentä muistutat eniten?",
+      "level": 1
+     },
+     {
+      "id": 17,
+      "question": "Paljonko koet tarvitsevasi unta?",
+      "level": 2
+     },
+     {
+      "id": 18,
+      "question": "Paljonko käytännössä nukut?",
+      "level": 2
+     },
+     {
+      "id": 19,
+      "question": "Miten reagoit, kun suutut?",
+      "level": 2
+     },
+     {
+      "id": 21,
+      "question": "Tilanteen selvittely pelin avulla?",
+      "level": 2
+     },
+     {
+      "id": 22,
+      "question": "Mitä viestität habituksellasi?",
+      "level": 2
+     },
+     {
+      "id": 23,
+      "question": "Miten neuvoisit samassa tilanteessa olevaa ystävää?",
+      "level": 2
+     },
+     {
+      "id": 24,
+      "question": "Miten selviäisit elämästäsi?",
+      "level": 2
+     },
+     {
+      "id": 25,
+      "question": "Miten keskittyisit siihen, mikä toimii?",
+      "level": 2
+     },
+     {
+      "id": 26,
+      "question": "miten jättäisit sen, mikä ei toimi?",
+      "level": 2
+     },
+     {
+      "id": 27,
+      "question": "Tulevaisuus? Mistä unelmoit, mitä toivot?",
+      "level": 2
+     },
+     {
+      "id": 28,
+      "question": "Miten opit parhaiten?",
+      "level": 2
+     },
+     {
+      "id": 30,
+      "question": "Rentoutuminen, vapaa-aika: Miten rentoudut?",
+      "level": 2
+     },
+     {
+      "id": 31,
+      "question": "Mikä tuottaa iloa ja nautintoa?",
+      "level": 2
+     },
+     {
+      "id": 32,
+      "question": "Ravinto? Mitä syöt? Käytkö syömässä koulussa?",
+      "level": 2
+     },
+     {
+      "id": 33,
+      "question": "Päihteet? Ongelmalliset?",
+      "level": 2
+     },
+     {
+      "id": 34,
+      "question": "Läheiset? Kaverilla, jos olisi tällainen, miten auttaisit?",
+      "level": 2
+     },
+     {
+      "id": 35,
+      "question": "Mikä sinua motivoi?",
+      "level": 2
+     },
+     {
+      "id": 36,
+      "question": "Keinoja? Tavoitteita elämässä? Tulevaisuus?",
+      "level": 2
+     },
+     {
+      "id": 37,
+      "question": "Mikä voisi olla se yksi juttu, johon voisit sitoutua, jotta elämäsi olisi parempaa?",
+      "level": 2
+     },
+     {
+      "id": 39,
+      "question": "Mitä tänään voisit tehdä?",
+      "level": 2
+     },
+     {
+      "id": 40,
+      "question": "Näe vaikeudet esteinä, jotka ovat rakentaneet sinua ihmisenä.",
+      "level": "quote"
+     },
+     {
+      "id": 41,
+      "question": "Arvosta miten olet selvinnyt vaikeuksista elämässäsi.",
+      "level": "quote"
+     },
+     {
+      "id": 42,
+      "question": "Huomaa resurssit itsessässi ja ulkopuolellasi.",
+      "level": "quote"
+     },
+     {
+      "id": 43,
+      "question": "Arvosta edistymistä ja onnistumista ja huomaa pieniä merkkejä, jotka kertovat sinulle, että olet oikealla tiellä.",
+      "level": "quote"
+     },
+     {      
+      "id": 44,
+      "question": "Ole tietoinen mitä haluat elämässä ja mitä haluat tulevaisuudelta. Toiveiden on taipumus täyttyä, mutta sinulla täytyy olla tavoite.",
+      "level": "quote"
+     },
+     {      
+      "id": 45,
+      "question": "Usko, että ansaitset hyvän tulevaisuuden. Mitä kovempaa elämäsi on ollut aiemmin sitä enemmän ansaitset pareman tulevaisuuden.",
+      "level": "quote"
+     },
+     {      
+      "id": 46,
+      "question": "Ole armollinen itsellesi ja muista ettet ole yksin. On syytä etsiä toivoa ja positiivisia asioita, vaikka et heti löytäsikään niitä.",
+      "level": "quote"
+     }
+    ]
+   }
